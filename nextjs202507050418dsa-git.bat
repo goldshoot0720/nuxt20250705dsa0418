@@ -2,7 +2,7 @@ git init
 
 git add .
  
-git commit -m "nuxt20250705dsa0418"
+git commit -m "Home Stack Queue"
 
 git remote add origin https://github.com/goldshoot0720/nuxt20250705dsa0418.git
 

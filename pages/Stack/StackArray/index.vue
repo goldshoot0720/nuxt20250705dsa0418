@@ -40,12 +40,10 @@ class Stack {
     return "︻\n" + str + "︼";
   }
   push(value) {
-    this.stack.push(value);
+    unshift();
   }
   pop() {
-    const value = this.stack[this.stack.length - 1];
-    this.stack.pop();
-    return value || "null";
+    return this.stack.pop() || "null";
   }
   top() {
     return this.stack[this.stack.length - 1] || "null";
