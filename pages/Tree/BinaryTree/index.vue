@@ -101,19 +101,35 @@ class BinaryTree {
   }
 }
 
+// let bt = new BinaryTree();
+// bt.AddNode(1, ["root"], "root");
+// bt.AddNode(2, ["root"], "left");
+// bt.AddNode(3, ["root"], "right");
+// bt.AddNode(4, ["root", "left"], "left");
+// bt.AddNode(5, ["root", "left"], "right");
+// bt.AddNode(null, ["root", "right"], "left");
+// bt.AddNode(6, ["root", "right"], "right");
+// bt.AddNode(7, ["root", "left", "left"], "left");
+// bt.AddNode(8, ["root", "left", "left"], "right");
+// bt.AddNode(9, ["root", "left", "right"], "left");
+// bt.AddNode(null, ["root", "left", "right"], "right");
+// bt.AddNode(10, ["root", "right", "right"], "left");
+// bt.AddNode(11, ["root", "right", "right"], "right");
+// bt.AddNode(12, ["root", "left", "left", "left"], "left");
+
 let bt = new BinaryTree();
-bt.AddNode(1, ["root"], "root");
-bt.AddNode(2, ["root"], "left");
-bt.AddNode(3, ["root"], "right");
-bt.AddNode(4, ["root", "left"], "left");
-bt.AddNode(5, ["root", "left"], "right");
+bt.AddNode("A", ["root"], "root");
+bt.AddNode("B", ["root"], "left");
+bt.AddNode("C", ["root"], "right");
+bt.AddNode("D", ["root", "left"], "left");
+bt.AddNode("E", ["root", "left"], "right");
 bt.AddNode(null, ["root", "right"], "left");
-bt.AddNode(6, ["root", "right"], "right");
-bt.AddNode(7, ["root", "left", "left"], "left");
-bt.AddNode(8, ["root", "left", "left"], "right");
-bt.AddNode(9, ["root", "left", "right"], "left");
+bt.AddNode("F", ["root", "right"], "right");
+bt.AddNode("G", ["root", "left", "left"], "left");
+bt.AddNode("H", ["root", "left", "left"], "right");
+bt.AddNode("I", ["root", "left", "right"], "left");
 bt.AddNode(null, ["root", "left", "right"], "right");
-bt.AddNode(10, ["root", "right", "right"], "left");
-bt.AddNode(11, ["root", "right", "right"], "right");
-bt.AddNode(12, ["root", "left", "left", "left"], "left");
+bt.AddNode("J", ["root", "right", "right"], "left");
+bt.AddNode("K", ["root", "right", "right"], "right");
+bt.AddNode("L", ["root", "left", "left", "left"], "left");
 </script>
